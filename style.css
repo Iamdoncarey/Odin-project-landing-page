@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'roboto';
+
+}
+.hero-section{
+    padding-bottom: 50px;
+    background-color: #1f2937;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 50px 50px;
+}
+
+.logo{
+    font-size: 24px;
+    margin: 40px;
+}
+
+.nav-bar ul{
+    display: flex;
+    margin: 40px;
+    gap: 15px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.text-content{
+    margin: 15px 80px;
+    font-size: 48px;
+    color: white;
+    width: 700px;
+}
+.content p{
+    font-size: 18px;
+    color: white;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+}
+.content{
+    display: flex;
+}
+.container2 h3{ 
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: 40px;
+}
+.card-collection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 75px;
+}
+.card1{
+    width: 350px;
+    padding: 15px;
+}
+.card1 .text{
+    text-align: center;
+    justify-self: center;
+    margin-right: 50px;
+}
+.quote{
+    background-color: #e5e7eb;
+    margin: 0;
+    padding: 75px;
+
+}
+.Lorem{
+    text-align: center;
+    color: #1f2937;
+    margin: 0 auto;
+    width: 80%;
+
+}
+.author{
+    text-align: right;
+    font-weight: 700;
+    width: 95%;
+}
+.action-call{
+    margin: 0;
+    padding: 120px;
+}
+.action-time{
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 75px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+.my-container{
+    color: white;
+}
+.buttons button{
+    background-color: transparent;
+    padding: 6px 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 90px;
+}
+footer{
+    background-color: #1f2937;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
